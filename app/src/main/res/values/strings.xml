@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ActivityLifeCycleExample</string>
+    <string name="new_activity">New Activity</string>
+    <string name="dialog">Dialog</string>
 </resources>
