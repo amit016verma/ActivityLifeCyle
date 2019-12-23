@@ -22,3 +22,6 @@ Activity's onpause method not getting called after showing AlertDialog
 onPause() is called when your activity is no longer at the top of the activity stack. A Dialog by itself is not an Activity, so will not replace the current Activity at the top of the stack, so will not cause anything to pause.
 
 A dialog (lower-case) does not need to be implemented by a Dialog class, however. For example, it is not uncommon to implement one with an Activity whose theme is set to that of a dialog. In this case, displaying the dialog-as-an-Activity will cause the new Activity to be on the top of the stack, pausing what previously was there
+
+<img src="Image/Screenshot_2019-12-22-16-22-18-776_com.amit.verma.activitylifecycleexample.jpg" width="300">        <img src="Image/Screenshot_2019-12-22-16-23-42-760_com.amit.verma.activitylifecycleexample.jpg" width="300">
+<img src="Image/Screenshot_2019-12-22-16-23-48-755_com.amit.verma.activitylifecycleexample.jpg" width="300">
